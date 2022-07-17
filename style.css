@@ -55,6 +55,23 @@
         }
         
     }
+    @media screen and (min-width: 1081) and (max-width: 1500px) {
+        .gallery {
+            grid-template-columns: repeat(1, 1fr);
+            background-color: rgb(8, 45, 212);
+        }
+        .box{
+            width: 4ad0%;
+           margin: 0 auto;
+           text-align: center;
+           font-size: 30px;
+          
+        }
+        .box img{
+            width: 80%;
+        }
+        
+    }
      
    
  
