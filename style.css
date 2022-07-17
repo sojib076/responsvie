@@ -22,9 +22,10 @@
     .star {
         color: #ffc107;
     }
-    @media screen and (min-width: 400px) and (max-width: 1080px) {
+    @media screen and (min-width: 400px) and (max-width: 768px) {
         .gallery {
             grid-template-columns: repeat(1, 1fr);
+            background-color: #f30909;
         }
         .box{
             width: 40%;
@@ -37,7 +38,23 @@
             width: 80%;
         }
     }
- 
+    @media screen and (min-width: 769px) and (max-width: 1080px) {
+        .gallery {
+            grid-template-columns: repeat(1, 1fr);
+            background-color: yellowgreen;
+        }
+        .box{
+            width: 40%;
+           margin: 0 auto;
+           text-align: center;
+           font-size: 30px;
+          
+        }
+        .box img{
+            width: 80%;
+        }
+        
+    }
      
    
  
